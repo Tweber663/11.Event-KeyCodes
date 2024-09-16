@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish", sans-serif; 
+    background-color: rgb(32, 32, 32);
+    color: white;
+    height: 100vh; 
+    margin: 0;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 23px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.mainInfo {
+    text-align: center;
+}
+
+.keyCode {
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+    color: white;
+}
+
+.cardsWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 70px;
+    margin: 10px 6px;
+    background-color: rgb(86, 86, 86);
+}
+
+.card h2 {
+    margin: 0;
+    padding: 3px 0;
+    font-size: 10px;
+    color: white; 
+    background-color: #204ecf;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.mainInfo.hidden {
+    display: none;
+}
+
+.preInfo.hidden {
+    display: none;
+}
